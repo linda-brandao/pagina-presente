@@ -1,0 +1,96 @@
+@import url(variaveis.css);
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho,
+.rodape {
+    background-color: var(--color-blue);
+    color: var(--color-orange);
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 5% 0;
+    align-items: center;
+    list-style: none;
+    font-family: var(--font);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.principal {
+    padding: 16px;
+    margin-top: 48px;
+}
+
+.home,
+.carta {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 48px;
+}
+
+.home {
+    align-items: center;
+    gap: 32px;
+}
+
+.home-imagem {
+    width: 50%;
+}
+
+.home-titulo {
+    font-family: var(--font);
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    color: var(--color-orange);
+}
+
+.carta,
+.fotos {
+    gap: 24px;
+}
+
+.subtitulo {
+    text-align: center;
+    color: var(--color-blue);
+    font-size: 28px;
+    font-weight: 700;
+    font-family: var(--font);
+}
+
+.container-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.conteudo-texto {
+    color: var(--color-orange);
+    font-family: var(--font);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.container-imagem {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.rodape-texto {
+    padding: 5% 0;
+    text-align: center;
+    font-family: var(--font);
+    font-weight: 700;
+    font-size: 20px;
+}
